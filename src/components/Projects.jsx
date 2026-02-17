@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import { FaRobot, FaBroadcastTower, FaBuilding } from 'react-icons/fa';
 import Tilt from './Tilt';
 
@@ -15,7 +14,6 @@ const projects = [
         gradient: 'linear-gradient(135deg, #6c63ff, #3b82f6)',
         icon: <FaRobot />,
         status: 'live',
-        links: { live: '#', github: '#' },
     },
     {
         number: '02',
@@ -27,7 +25,6 @@ const projects = [
         gradient: 'linear-gradient(135deg, #00d4ff, #0ea5e9)',
         icon: <FaBroadcastTower />,
         status: 'live',
-        links: { live: '#', github: '#' },
     },
     {
         number: '03',
@@ -39,7 +36,6 @@ const projects = [
         gradient: 'linear-gradient(135deg, #ff6b9d, #c084fc)',
         icon: <FaBuilding />,
         status: 'development',
-        links: { github: '#' },
     },
 ];
 
@@ -94,18 +90,6 @@ export default function Projects() {
                                             {project.tech.map((t) => (
                                                 <span key={t}>{t}</span>
                                             ))}
-                                        </div>
-                                        <div className="project-card-links">
-                                            {project.links.live && (
-                                                <a href={project.links.live} target="_blank" rel="noopener noreferrer">
-                                                    <FiExternalLink /> Live Demo
-                                                </a>
-                                            )}
-                                            {project.links.github && (
-                                                <a href={project.links.github} target="_blank" rel="noopener noreferrer">
-                                                    <FiGithub /> Source Code
-                                                </a>
-                                            )}
                                         </div>
                                     </div>
                                 </div>
