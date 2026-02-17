@@ -23,9 +23,9 @@ const itemVariants = {
 };
 
 const stats = [
-    { number: '3+', label: 'Years Experience' },
-    { number: '10+', label: 'Projects Delivered' },
-    { number: '5+', label: 'Happy Clients' },
+    { number: '1', label: 'Years Experience' },
+    { number: '3+', label: 'Projects Delivered' },
+    { number: '3+', label: 'Happy Clients' },
 ];
 
 export default function Hero() {

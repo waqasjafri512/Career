@@ -1,4 +1,4 @@
-import { FiGithub, FiLinkedin, FiTwitter, FiHeart } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiPhone, FiHeart } from 'react-icons/fi';
 
 const footerLinks = [
     { label: 'About', href: '#about' },
@@ -9,9 +9,9 @@ const footerLinks = [
 ];
 
 const socials = [
-    { icon: <FiGithub />, href: 'https://github.com/', label: 'GitHub' },
-    { icon: <FiLinkedin />, href: 'https://linkedin.com/in/', label: 'LinkedIn' },
-    { icon: <FiTwitter />, href: 'https://twitter.com/', label: 'Twitter' },
+    { icon: <FiGithub />, href: 'https://github.com/waqasjafri512', label: 'GitHub' },
+    { icon: <FiLinkedin />, href: 'https://linkedin.com/in/muhammad-waqas-anjum', label: 'LinkedIn' },
+    { icon: <FiPhone />, href: 'tel:+923080425989', label: 'Phone' },
 ];
 
 export default function Footer() {

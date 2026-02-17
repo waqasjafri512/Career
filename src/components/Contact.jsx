@@ -3,9 +3,9 @@ import { useInView } from 'react-intersection-observer';
 import { FiMail, FiMapPin, FiPhone, FiSend } from 'react-icons/fi';
 
 const contactCards = [
-    { icon: <FiMail />, title: 'Email', value: 'waqasanjum.dev@gmail.com' },
+    { icon: <FiMail />, title: 'Email', value: 'mr.waqasjafri@gmail.com' },
     { icon: <FiMapPin />, title: 'Location', value: 'Pakistan' },
-    { icon: <FiPhone />, title: 'Phone', value: 'Available on request' },
+    { icon: <FiPhone />, title: 'Phone', value: '+923080425989' },
 ];
 
 export default function Contact() {

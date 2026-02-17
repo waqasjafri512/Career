@@ -51,7 +51,7 @@ export default function Skills() {
                 >
                     <span className="section-label">Skills & Technologies</span>
                     <h2 className="section-title">
-                        My tech <span className="gradient-text">arsenal</span>
+                        My tech <span className="gradient-text">Stack</span>
                     </h2>
                     <p className="section-subtitle">
                         A comprehensive toolkit spanning frontend, backend, databases, and cloud infrastructure.
